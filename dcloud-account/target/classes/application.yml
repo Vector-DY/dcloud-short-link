@@ -11,14 +11,14 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 118.89.95.131:8848
+        server-addr: 120.79.150.146:8848
         username: nacos
         password: nacos
 
   #数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://118.89.95.131:3306/dcloud_account?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://120.79.150.146:3306/dcloud_account?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: xdclass.net168
 

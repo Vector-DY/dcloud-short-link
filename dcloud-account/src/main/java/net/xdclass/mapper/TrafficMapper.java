@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author dingyang
- * @since 2023-06-23
+ * @since 2023-06-24
  */
 public interface TrafficMapper extends BaseMapper<TrafficDO> {
 
