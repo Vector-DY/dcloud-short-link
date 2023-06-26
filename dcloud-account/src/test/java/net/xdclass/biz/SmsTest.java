@@ -24,7 +24,9 @@ public class SmsTest {
 
     @Test
     public void testSendSms(){
-        smsComponent.send("13258275592",smsConfig.getTemplateId(),"666888");
+        for (int i = 0;i < 3;i++) {
+            smsComponent.send("13258275592", smsConfig.getTemplateId(), "666888");
+        }
     }
 
 }
